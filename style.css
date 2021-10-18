@@ -1,0 +1,103 @@
+*{
+    --color1: #8aa532;
+    --color2: #7b9a1b;
+    --color3: #3e4c0e; 
+    /*font-family: 'Scheherazade New', serif;*/
+    font-family: 'Crimson Text', serif;
+}
+
+.bgUnico{
+    background-image: url("./img/Recurso25.png");
+}
+
+.headerBG{
+    background-image: url("./img/Recurso18-100.jpg");
+}
+
+.BGfooter{
+    background-image: url("./img/Recurso20.png")
+}
+hr.sep-3 {
+    border: none;
+    height: 1px;
+    background-image: linear-gradient(to right, #f0f0f0, var(--color3), #f0f0f0);
+  }
+  hr.sep-3::after {
+    content: '健';
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    transform-origin: 50% 50%;
+    padding: 1rem;
+    background-color: white;
+  }
+
+  .navText{
+    font-size:x-large;  
+    
+  }
+
+  .navText a{
+    color:var(--color3);
+  }
+  .navText a:hover{
+    color:black;
+  }
+
+  .logoUp{
+    margin-top: -2.8rem;
+  }
+
+  .ml-auto{
+      margin-left:4rem !important;
+  }
+  .iconosRedes{
+      padding-left: 8rem;
+      margin-bottom: auto;
+  }
+  .iconosRedes svg{
+      fill: var(--color1)
+  }
+  .iconosRedes svg:hover{
+    fill: var(--color3);
+    transition: 300ms ease;
+
+}
+  footer{
+      color:var(--color3);
+  }
+  footer p{
+      margin-bottom: 0;
+  }
+  footer h3{
+      border-bottom: 0;
+      margin-bottom: 0;
+  }
+  .footer-div2{
+    border-left: 2px solid #5C477A;
+    border-right: 2px solid #5C477A;
+  }
+  .footer-div2 h3{
+    margin-left:1rem;
+  }
+  p a{
+      margin-left: 1rem;
+      text-decoration: none;
+      margin-bottom: 0;
+      color:var(--color3);
+  }
+
+  .footer-div3{
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+  .footer-div3 svg{
+      fill: var(--color3);
+  }
+  .footer-div3 svg:hover{
+    fill: black;
+    transition: 300ms ease;
+}
+
+ 
